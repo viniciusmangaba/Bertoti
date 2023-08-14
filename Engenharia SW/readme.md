@@ -2,7 +2,7 @@
 ## TEXTO 1:
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-### COMENTÁRIOS:
+##### COMENTÁRIOS:
 Existem três tipos de diferenças criticas na programação: Tempo, escala e Trade-offs.  No contexto de projetos de engenharia de software, é necessário considerar mais a passagem do tempo e a necessidade futura de mudanças. Em organizações de engenharia de software, a preocupação deve ser maior em relação à escala e eficiência, tanto para o software produzido quanto para a própria organização.
 
 __________________________________________________________________________________________________________________________________________
