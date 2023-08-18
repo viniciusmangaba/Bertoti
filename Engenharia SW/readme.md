@@ -20,4 +20,47 @@ No texto acima é comentado que programação é uma parte significante da Engen
 #### REQUISITOS NÃO FUNCIONAIS:
 Um exemplo de comparação de requisitos não funcionais é a usabilidade do google como site de buscas rápidas quando comparadas a outros sites como bing, yahoo, entre outros, sendo a google uma aplicação direta, que não possue propagandas desnecessárias e de baixissimo tempo de resposta, além de possuir um enorme banco de dados de informações.
 
+## AULA 18/08/23
+### ATIVIDADE 1 ACERTO E 1 ERRO DE CADA HEURÍSTICA: "10 Usability Heuristics for User Interface Design".
+
+1: Visibility of system status
+  - Acerto: Familiaridade do usuário com o sistema, através das interações previsiveis do sistema, tornando-o mais simples na sua utilização.
+  - Erro: Itens ou falta de indicação ao usuário em qual processo ou etapa que ele se encontra.
+
+2: Match between system and the real world
+  - Acerto: Semelhanças de itens do sistema com o mundo real, por exemplo metáforas trazendo maior simplicidade e familiaridade do usuário.
+  - Erro: Utilização de termos ou jargões técnicos que por mais que existam, não são do cotidiano do usuário.
+
+3: User control and freedom
+  - Acerto: O usuário possue total liberdade para navegar e controlar o sistema, colocando as modificações que mais lhe agradam, seja no aspecto visual ou funcional do sistema.
+  - Erro: Quando o sistema oferece muitas opções de modificação ou de operação pode acontecer do sistema ficar sobrecarregado e uma vez que não possua um código/ servidor apurado, pode vir a ter travamentos ou lentidôes.
+
+4: Consistency and standards
+  - Acerto: Apresentar funções padrões que intuitivamente indicam ao usuário o caminho a ser seguido - ex: logout
+  - Erro: Apresentar itens, palavras ou expressões que possuam causar dualidade de entendimento ao usuário.
+
+5: Error prevention
+  - Acerto: Formatação de informações e dados de entrada para o tratamento facilitado do sistema, prevenindo que o usuário faça erros desnecessários
+  - Erro: Permissão que o usuário insira caracteres no sistema que não são reconhecidas pelo sistema, sendo que poderia ser resolvida na criação do código.
+
+6: Recognition rather than recall
+ - Acerto: Pré definição de itens e opções que facilitam a utilização do sistema, por exemplo o calendário na seleção do dia
+ - Erro: Fazer com que o usúario lembre de dados ou informações que poderiam ser pré definidas pelo sistema.
+
+7: Flexibility and efficiency of use
+  - Acerto:
+  - Erro: 
+
+8: Aesthetic and minimalist design
+  - Acerto: Apresentar apenas informações necessárias, com menos informações terá mais acertividade do usuário.
+  - Erro: Apresentar muitas informações simultaneas ao usuário, tornando a atenção dispersa e não sendo possivel a utilização correta do sistema.
+
+9: Help users recognize, diagnose, and recover from errors
+  - Acerto: Apresentar informações simples e itens de familiaridade nas mensagens do sistema, tornando-o mais simples a compreensão do usuário.
+  - Erro: 
+
+10: Help and documentation
+  - Acerto: Apresentar ao usuário uma sequência ou manual que o próprio usuário possa realizar a operação de ajuste do erro.
+  - Erro: Mesmo que apresente a documentação necessária, ela possua uma linguagem extremamente técnica que seja impossível a compreensão do erro apresentado. 
+
 
