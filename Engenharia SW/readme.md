@@ -66,5 +66,5 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 
 ## AULA 21/08/23
 ### ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
-![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/8533902a-48d3-4ab0-960a-e387eaebcc41)
+![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4c4e3d02-31f8-445f-9e13-df794c63fdbb)
 
