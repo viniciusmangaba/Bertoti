@@ -61,6 +61,10 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 
 10: Help and documentation
   - Acerto: Apresentar ao usuário uma sequência ou manual que o próprio usuário possa realizar a operação de ajuste do erro.
-  - Erro: Mesmo que apresente a documentação necessária, ela possua uma linguagem extremamente técnica que seja impossível a compreensão do erro apresentado. 
+  - Erro: Mesmo que apresente a documentação necessária, ela possua uma linguagem extremamente técnica que seja impossível a compreensão do erro apresentado.
 
+
+## AULA 21/08/23
+### ATIVIDADE CASO DE USO
+![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/8533902a-48d3-4ab0-960a-e387eaebcc41)
 
