@@ -68,3 +68,43 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 ### ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
 ![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4c4e3d02-31f8-445f-9e13-df794c63fdbb)
 
+## AULA 25/08/23
+### Diagrama de Clases UML + JAVA
+
+Integer = Classe
+int = tipo primitivo
+
+Mesma coisa acontece com o double e Double, no primeiro caso é somente um número, exemplo 0,2. Já no Double contém diversos métodos, como métodos de aproximação, métodos de calculo (ex: Latitude e Longitude, com médtodos de aproximação) 
+
+(-) É private, só a classe acessa - Por regra todos os atributos são privados.
+(+) É do tipo PUBLIC, pode ser acessado por classes, etc.
+
+1.  Nome da Classe (SUBSTANTIVO com as primeiras letras maiusculas. No caso Sala de Aula).
+2.  Atributos (O que a classe conhece - SUBSTANTIVO com a primeira letra minuscula. No caso listaChama).
+3.  Método (O que a classe faz - VERBO) - No exemplo, passar o nome, que é uma String com o nome 
+
+| Sala de Aula| NOME DA CLASSE|
+|-------------------------| ------------------------|
+| - listaChamada: List<Aluno>| ATRIBUTOS | 
+| + buscarAlunoNome(String nome):List<Aluno> | MÉTODO | 
+|+ buscarAlunoRA(int RA):Aluno| MÉTODO |
+
+List = Classe / Aluno = Objeto
+
+|Aluno | NOME DA CLASSE |
+|----------| -----------|
+| - nome: String           | ATRIBUTO |
+
+    public List<Aluno> buscarAlunoNome(String nome) {
+           List<Aluno> encontrador = new LinkedList<Aluno>();
+           for (Aluno aluno: listaChamada){
+               if (aluno.getNome().equals(nome))encontrados.add(aluno);
+           }
+           return encontrados;
+
+#### equals = Utiliza-se esse método pois o nome é uma String, e consequentemente é uma Classe.
+  
+
+
+
+
