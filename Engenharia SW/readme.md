@@ -104,7 +104,34 @@ List = Classe / Aluno = Objeto
 
 #### equals = Utiliza-se esse método pois o nome é uma String, e consequentemente é uma Classe.
   
+## AULA 28/08/23
+### ATIVIDADE 5 - Inicie seu diagrama de classes UML fazendo-o JUNTO com o JAVA.
 
+- Exemplo mostrado em sala de aula - Biblioteca
 
+![Diagrama de Classes](https://github.com/viniciusmangaba/Bertoti/assets/127343200/fffeffed-e41f-494c-adb8-0296f761993e)
+
+    public class Biblioteca {
+        private List<Livro> livros = new LinkedList<Livros>();
+        private List<Usuario> usuario = new LinkedList<Usuario>();
+
+        public void addLivro (Livro livro){
+         livros add(livro);
+        }
+
+        public void addUsuario(Usuario usuario){
+          usuarios.add(usuario);
+        }
+
+        public List<Livro> buscaLivroNome(String nome){
+          List<livro>encontrados = new LinkedList<Livro>();
+          for (Livro livro livro){
+            if (livro.getNome().equals(nome)).encontraos.add(livro);
+            }
+            return encontrados;
+        }
+    }
+
+      
 
 
