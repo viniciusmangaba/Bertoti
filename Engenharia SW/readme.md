@@ -48,8 +48,8 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
  - Erro: Fazer com que o usúario lembre de dados ou informações que poderiam ser pré definidas pelo sistema.
 
 7: Flexibility and efficiency of use
-  - Acerto:
-  - Erro: 
+  - Acerto: Inserção de atalhos que facilitam a vida de usuários mais experientes, mas que seja "ocultos" à usuários novatos, tornando assim o método mais eficiente para ambos.
+  - Erro: Não mostrar os atalhados e modificações para os novos usúarios, o que poderia facilitar a interação com o sistema.
 
 8: Aesthetic and minimalist design
   - Acerto: Apresentar apenas informações necessárias, com menos informações terá mais acertividade do usuário.
@@ -57,7 +57,7 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 
 9: Help users recognize, diagnose, and recover from errors
   - Acerto: Apresentar informações simples e itens de familiaridade nas mensagens do sistema, tornando-o mais simples a compreensão do usuário.
-  - Erro: 
+  - Erro: Apresentar mensagens ou informações técnicas ou mesmo sem solução para o usúario, tornadno assim impossível a solução do problema.
 
 10: Help and documentation
   - Acerto: Apresentar ao usuário uma sequência ou manual que o próprio usuário possa realizar a operação de ajuste do erro.
