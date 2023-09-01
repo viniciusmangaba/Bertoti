@@ -132,6 +132,9 @@ List = Classe / Aluno = Objeto
         }
     }
 
-      
+## AULA 01/09/23
+### ATIVIDADE 6 - Atividade prosposta pelo professor - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
+- Em desenvolvimento:
 
+![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4f9b8306-7ac4-41a9-b545-ab05b21e16d2)
 
