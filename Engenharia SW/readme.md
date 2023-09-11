@@ -1,3 +1,7 @@
+# ENGENHARIA DE SOFTWARE
+### FATEC SÃO JOSÉ DOS CAMPOS - JESSEN VIDAL 
+Repositório criado e destinado para as atividades realizadas em sala de aula, sob orientação do professor Giuliano Araujo Bertoti, na disciplina de Engenharia de Software em Banco de Dados - 2º Semestre/2023.
+
 ## AULA 11/08/23
 ### ATIVIDADE 1 - Comentários do livro "Software Engineering at Google"
 ### TEXTO 1:
