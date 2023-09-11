@@ -138,3 +138,7 @@ List = Classe / Aluno = Objeto
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4f9b8306-7ac4-41a9-b545-ab05b21e16d2)
 
+- 2ª VERSÃO:
+
+![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (1)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/796bb2b1-0c25-48bf-bfb4-300490e301a3)
+
