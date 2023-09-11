@@ -1,4 +1,5 @@
 ## AULA 11/08/23
+### ATIVIDADE 1 - Comentários do livro "Software Engineering at Google"
 ### TEXTO 1:
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
@@ -12,6 +13,7 @@ Within Google, we sometimes say, “Software engineering is programming integrat
 #### COMENTÁRIOS:
 No texto acima é comentado que programação é uma parte significante da Engenharia de Software, porém é evidenciado que somente a programção não é Engenharia de Software, assim como cubos não são quadrados e distâncias não é velocidade em si. 
 
+### ATIVIDADE 2 - TRADE-OFFS
 #### 3 EXEMPLOS DE TRADE-OFFS:
   1 - Desempenho x Custo: No desenvolvimento de softwares quando queremos uma funcionalidade ou aplicação com maior desempenho automaticamente implicará num custo maior para a confecção desse software.
   2 - Complexidade do Software x Simplicidade do código: Quanto mais complexo do software maior será o detalhamento do software, que implicará no número de linhas digitadas, bem como no "tamanho" do arquivo.
@@ -21,7 +23,8 @@ No texto acima é comentado que programação é uma parte significante da Engen
 Um exemplo de comparação de requisitos não funcionais é a usabilidade do google como site de buscas rápidas quando comparadas a outros sites como bing, yahoo, entre outros, sendo a google uma aplicação direta, que não possue propagandas desnecessárias e de baixissimo tempo de resposta, além de possuir um enorme banco de dados de informações.
 
 ## AULA 18/08/23
-### ATIVIDADE 1 ACERTO E 1 ERRO DE CADA HEURÍSTICA: "10 Usability Heuristics for User Interface Design".
+### ATIVIDADE 3 - Requisitos não funcionais de usabilidade - Avaliação de 10 Heurísticas
+#### 1 ACERTO E 1 ERRO DE CADA HEURÍSTICA: "10 Usability Heuristics for User Interface Design".
 
 1: Visibility of system status
   - Acerto: Familiaridade do usuário com o sistema, através das interações previsiveis do sistema, tornando-o mais simples na sua utilização.
@@ -134,7 +137,7 @@ List = Classe / Aluno = Objeto
 
 ## AULA 01/09/23
 ### ATIVIDADE 6 - Atividade prosposta pelo professor - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
-- Em desenvolvimento:
+- 1ª VERSÃO:
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4f9b8306-7ac4-41a9-b545-ab05b21e16d2)
 
@@ -142,3 +145,6 @@ List = Classe / Aluno = Objeto
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (1)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/796bb2b1-0c25-48bf-bfb4-300490e301a3)
 
+- 3ª VERSÃO:
+
+![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (2)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/ab09d47e-9ab1-409f-9565-46d07bd733aa)
