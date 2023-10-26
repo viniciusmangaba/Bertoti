@@ -152,3 +152,124 @@ List = Classe / Aluno = Objeto
 - 3ª VERSÃO:
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (2)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/ab09d47e-9ab1-409f-9565-46d07bd733aa)
+
+### ATIVIDADE 6 - Implementação Diagrama de Classes UML em Código JAVA
+- Classe Main
+  
+import java.util.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        ConsultorioMedico consultorio = new ConsultorioMedico();
+
+        while (true) {
+            System.out.println("Escolha uma opção:");
+            System.out.println("1. Agendar consulta");
+            System.out.println("2. Visualizar consultas agendadas");
+            System.out.println("3. Sair");
+            System.out.print("Opção: ");
+
+            String opcaoStr = scanner.nextLine();
+
+            try {
+                int opcao = Integer.parseInt(opcaoStr);
+
+                switch (opcao) {
+                    case 1:
+                        agendarConsulta(consultorio, scanner);
+                        break;
+                    case 2:
+                        visualizarConsultas(consultorio);
+                        break;
+                    case 3:
+                        System.out.println("Saindo do programa.");
+                        return;
+                    default:
+                        System.out.println("Opção inválida. Tente novamente.");
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("Opção inválida. Tente novamente.");
+            }
+        }
+    }
+
+    private static void agendarConsulta(ConsultorioMedico consultorio, Scanner scanner) {
+        // Solicitar informações do paciente
+        System.out.print("Nome do paciente: ");
+        String nomePaciente = scanner.nextLine();
+
+        System.out.print("Data de nascimento do paciente (dd/MM/yyyy): ");
+        String dataNascimentoStr = scanner.nextLine();
+        Date dataNascimento = parseDate(dataNascimentoStr);
+
+        System.out.print("Gênero do paciente: ");
+        String generoPaciente = scanner.nextLine();
+
+        // Solicitar informações do médico
+        System.out.print("Nome do médico: ");
+        String nomeMedico = scanner.nextLine();
+
+        System.out.print("Especialidade do médico: ");
+        String especialidadeMedico = scanner.nextLine();
+
+        System.out.print("CRM do médico: ");
+        String crmMedico = scanner.nextLine();
+
+        // Agendando a consulta
+        System.out.print("Data da consulta (dd/MM/yyyy): ");
+        String dataConsultaStr = scanner.nextLine();
+        Date dataConsulta = parseDate(dataConsultaStr);
+
+        Paciente paciente = new Paciente();
+        paciente.setNome(nomePaciente);
+        paciente.setDatadeNascimento(dataNascimento);
+        paciente.setGenero(generoPaciente);
+
+        Medico medico = new Medico();
+        medico.setNome(nomeMedico);
+        medico.setEspecialidade(especialidadeMedico);
+        medico.setCrm(crmMedico);
+
+        consultorio.agendarConsulta(paciente, medico, dataConsulta);
+
+        System.out.println("Consulta agendada com sucesso!");
+    }
+
+    private static void visualizarConsultas(ConsultorioMedico consultorio) {
+        List<Consulta> consultas = consultorio.getConsultas();
+
+        if (consultas.isEmpty()) {
+            System.out.println("Nenhuma consulta agendada.");
+        } else {
+            System.out.println("Consultas agendadas:");
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+            for (Consulta consulta : consultas) {
+                System.out.println("Paciente: " + consulta.getPaciente().getNome());
+                System.out.println("Data de Nascimento do Paciente: " + dateFormat.format(consulta.getPaciente().getDatadeNascimento()));
+                System.out.println("Gênero do Paciente: " + consulta.getPaciente().getGenero());
+                System.out.println("Médico: " + consulta.getMedico().getNome());
+                System.out.println("Especialidade: " + consulta.getMedico().getEspecialidade());
+                System.out.println("CRM: " +consulta.getMedico().getCrm());
+                System.out.println("Data da Consulta: " + dateFormat.format(consulta.getData()));
+                System.out.println();
+            }
+        }
+    }
+
+    private static Date parseDate(String dateStr) {
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+            return dateFormat.parse(dateStr);
+        } catch (ParseException e) {
+            System.out.println("Formato de data inválido. Use dd/MM/yyyy.");
+            return null;
+        }
+    }
+}
+
