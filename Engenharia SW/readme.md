@@ -32,44 +32,91 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 
 1: Visibility of system status
   - Acerto: Familiaridade do usuário com o sistema, através das interações previsiveis do sistema, tornando-o mais simples na sua utilização.
+    
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/0907509f-3f06-47fb-b14b-45d35e65fbdb)
+
   - Erro: Itens ou falta de indicação ao usuário em qual processo ou etapa que ele se encontra.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/f8a6d88b-c87b-47a0-a9ac-86c995ea1d61)
 
 2: Match between system and the real world
   - Acerto: Semelhanças de itens do sistema com o mundo real, por exemplo metáforas trazendo maior simplicidade e familiaridade do usuário.
-  - Erro: Utilização de termos ou jargões técnicos que por mais que existam, não são do cotidiano do usuário.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/c584a06b-870e-4c05-a77b-24746e000d04)
+
+  - Erro: Pagina não encontrada, ERROR 404.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/6468ec39-34a7-4992-a8ea-16ea681f7910)
+
 
 3: User control and freedom
   - Acerto: O usuário possue total liberdade para navegar e controlar o sistema, colocando as modificações que mais lhe agradam, seja no aspecto visual ou funcional do sistema.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/a7a7bd32-938e-4842-8a29-4cdfb0b24c28)
+
   - Erro: Quando o sistema oferece muitas opções de modificação ou de operação pode acontecer do sistema ficar sobrecarregado e uma vez que não possua um código/ servidor apurado, pode vir a ter travamentos ou lentidôes.
 
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/6cca2e03-baa0-4172-a923-724b14b1615c)
+
 4: Consistency and standards
-  - Acerto: Apresentar funções padrões que intuitivamente indicam ao usuário o caminho a ser seguido - ex: logout
+  - Acerto: Apresentar funções padrões que intuitivamente indicam ao usuário o caminho a ser seguido - ex: logout.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/f4fb3ee1-c317-43e6-9543-efc0af390b5b)
+
   - Erro: Apresentar itens, palavras ou expressões que possuam causar dualidade de entendimento ao usuário.
 
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/7070dbe5-6b7f-4331-b0e6-116336dbb6b7)
+
 5: Error prevention
-  - Acerto: Formatação de informações e dados de entrada para o tratamento facilitado do sistema, prevenindo que o usuário faça erros desnecessários
+  - Acerto: Formatação de informações e dados de entrada para o tratamento facilitado do sistema, prevenindo que o usuário faça erros desnecessários. (No exemplo o sistema insire os caracteres separadores automaticamente).
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/75bb6dcb-7fe3-403d-ad47-773adbad9a0c)
+
   - Erro: Permissão que o usuário insira caracteres no sistema que não são reconhecidas pelo sistema, sendo que poderia ser resolvida na criação do código.
+
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/e69e6a8e-0db6-4c42-b39b-b7e8677a5e1c)
 
 6: Recognition rather than recall
  - Acerto: Pré definição de itens e opções que facilitam a utilização do sistema, por exemplo o calendário na seleção do dia
- - Erro: Fazer com que o usúario lembre de dados ou informações que poderiam ser pré definidas pelo sistema.
+
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/5576234c-09a1-484c-ad8a-4c1f0f85e527)
+
+ - Erro: Fazer com que o usúario lembre de dados ou informações que poderiam ser pré definidas pelo sistema. Aqui o CEP poderia ser inserido antes do endereço, e o sistema poderia fazer uma busca automática.
+   
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/95afa45d-6cac-4eaf-a805-e62f304b9843)
 
 7: Flexibility and efficiency of use
   - Acerto: Inserção de atalhos que facilitam a vida de usuários mais experientes, mas que seja "ocultos" à usuários novatos, tornando assim o método mais eficiente para ambos.
-  - Erro: Não mostrar os atalhados e modificações para os novos usúarios, o que poderia facilitar a interação com o sistema.
+    
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/f246620f-8b5f-4c42-b5d3-a76f9b3edcb9)
+
+  - Erro: Não mostrar os atalhados e modificações para os novos usúarios, o que poderia facilitar a interação com o sistema. O sistema poderia ter um opção de mostrar uma tela de acima.
 
 8: Aesthetic and minimalist design
   - Acerto: Apresentar apenas informações necessárias, com menos informações terá mais acertividade do usuário.
+
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/15a4729f-0ece-4ab0-bba2-f6ea111594e7)
+
   - Erro: Apresentar muitas informações simultaneas ao usuário, tornando a atenção dispersa e não sendo possivel a utilização correta do sistema.
+
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/f6364d64-3932-45bc-83dc-812373ed54c6)
 
 9: Help users recognize, diagnose, and recover from errors
   - Acerto: Apresentar informações simples e itens de familiaridade nas mensagens do sistema, tornando-o mais simples a compreensão do usuário.
-  - Erro: Apresentar mensagens ou informações técnicas ou mesmo sem solução para o usúario, tornadno assim impossível a solução do problema.
+
+  ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/548d4c61-8d5d-4bfd-b0d0-7fb5523fcdab)
+
+  - Erro: Apresentar mensagens ou informações técnicas ou mesmo sem solução para o usúario, tornando assim impossível a solução do problema.
+    
+![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/fdf10e4a-83f2-4ff5-a0d0-c9ed01275773)
 
 10: Help and documentation
   - Acerto: Apresentar ao usuário uma sequência ou manual que o próprio usuário possa realizar a operação de ajuste do erro.
+    
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/c68bdf1b-b2f0-48da-8751-d5f6f022aa2f)
+
   - Erro: Mesmo que apresente a documentação necessária, ela possua uma linguagem extremamente técnica que seja impossível a compreensão do erro apresentado.
 
+    ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/95bf9ab4-2eed-4eb3-807f-de7d6f006a44)
 
 ## AULA 21/08/23
 ### ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
