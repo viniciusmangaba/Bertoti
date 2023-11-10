@@ -201,4 +201,265 @@ List = Classe / Aluno = Objeto
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (2)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/ab09d47e-9ab1-409f-9565-46d07bd733aa)
 
 ### ATIVIDADE 6 - Implementação Diagrama de Classes UML em Código JAVA
+CLASSE CONSULTORIOMEDICO
+<details>
+  
+    package JUnity;
+    import JUnity.Consulta;
 
+    import java.util.LinkedList;
+    import java.util.List;
+
+    public class ConsultorioMedico {
+        private List<Consulta> consultas = new LinkedList<Consulta>();
+
+        public void agendarConsulta(Consulta consulta) {
+            consultas.add(consulta);
+        }
+    
+        public List<Consulta> consultarConsultasPorPaciente(String paciente) {
+            List<Consulta> consultasEncontradas = new LinkedList<Consulta>();
+            for (Consulta consulta : consultas) {
+                if (consulta.getPaciente().getNome().equals(paciente)) {
+                    consultasEncontradas.add(consulta);
+                }
+            }
+            return consultasEncontradas;
+        }
+    
+        public List<Consulta> consultarConsultasPorMedicoNome(String nome) {
+            List<Consulta> consultasEncontradas = new LinkedList<Consulta>();
+            for (Consulta consulta : consultas) {
+                if (consulta.getMedico().getNome().equals(nome)) {
+                    consultasEncontradas.add(consulta);
+                }
+            }
+            return consultasEncontradas;
+        }
+    
+        public List<Consulta> consultarConsultasPorMedicoEspecialidade(String especialidade) {
+            List<Consulta> consultasEncontradas = new LinkedList<Consulta>();
+            for (Consulta consulta : consultas) {
+                if (consulta.getMedico().getEspecialidade().equals(especialidade)) {
+                    consultasEncontradas.add(consulta);
+                }
+            }
+            return consultasEncontradas;
+        }
+    
+        public List<Consulta> getConsultas() {
+            return consultas;
+        }
+    
+    }
+</details>
+  
+CLASSE MEDICO
+<details> 
+  
+    package JUnity;
+    public class Medico {
+        private String nome;
+        private String especialidade;
+        private Integer id;
+    
+        public Medico(String nome, String especialidade, Integer id) {
+            this.nome = nome;
+            this.especialidade = especialidade;
+            this.id = id;
+        }
+    
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+    
+        public String getNome() {
+            return nome;
+        }
+    
+        public void setEspecialidade(String especialidade) {
+            this.especialidade = especialidade;
+        }
+    
+        public String getEspecialidade() {
+            return especialidade;
+        }
+    
+        public void setId(Integer id) {
+            this.id = id;
+        }
+    
+        public Integer getId() {
+            return id;
+        }
+    }
+</details>
+
+CLASSE PACIENTE
+<details> 
+  
+    package JUnity;
+    public class Paciente {
+        private String nome;
+        private Integer idade;
+        private Integer id;
+    
+        public Paciente(String nome, Integer idade, Integer id) {
+            this.nome = nome;
+            this.idade = idade;
+            this.id = id;
+        }
+    
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+    
+        public String getNome() {
+            return nome;
+        }
+    
+        public void setIdade(Integer idade) {
+            this.idade = idade;
+        }
+    
+        public Integer getIdade() {
+            return idade;
+        }
+    
+        public void setId(Integer id) {
+            this.id = id;
+        }
+    
+        public Integer getId() {
+            return id;
+        }
+    }
+</details>
+
+CLASSE CONSULTA
+<details> 
+
+    package JUnity;
+    public class Consulta {
+        private String data;
+        private Medico medico;
+        private Paciente paciente;
+    
+        public Consulta(String data, Medico medico, Paciente paciente) {
+            this.data = data;
+            this.medico = medico;
+            this.paciente = paciente;
+        }
+    
+        public void setData(String data) {
+            this.data = data;
+        }
+    
+        public String getData() {
+            return data;
+        }
+    
+        public void setMedico(Medico medico) {
+            this.medico = medico;
+        }
+    
+        public Medico getMedico() {
+            return medico;
+        }
+    
+        public void setPaciente(Paciente paciente) {
+            this.paciente = paciente;
+        }
+    
+        public Paciente getPaciente() {
+            return this.paciente;
+        }
+    
+        public void adicionarPaciente(Paciente pac) {
+        }
+    }
+
+</details>
+
+
+TESTES
+<details> 
+    package JUnity;
+    
+    import org.junit.jupiter.api.Test;
+    import java.util.List;
+    import static org.junit.jupiter.api.Assertions.*;
+    
+    public class TestesConsultorioMedico {
+    
+        @Test
+        public void testarConsultaValidaPorPaciente(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorPaciente("Lara Prado");
+            assertEquals(res.size(), 1);
+            assertTrue(res.contains(consulta));
+        }
+    
+        @Test
+        public void testarConsultaInvalidaPorPaciente(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorPaciente("Camila Prado");
+            assertEquals(res.size(), 0);
+            assertFalse(res.contains(consulta));
+        }
+    
+        @Test
+        public void testarConsultaValidaPorMedicoNome(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorMedicoNome("Dr. José Roberto");
+            assertEquals(res.size(), 1);
+            assertTrue(res.contains(consulta));
+        }
+    
+        @Test
+        public void testarConsultaInvalidaPorPacienteNome(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorMedicoNome("Dr. Sebastião Oliveira");
+            assertEquals(res.size(), 0);
+            assertFalse(res.contains(consulta));
+        }
+    
+        @Test
+        public void testarConsultaValidaPorEspecialidade(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorMedicoEspecialidade("Pediatra");
+            assertEquals(res.size(), 1);
+            assertTrue(res.contains(consulta));
+        }
+    
+        @Test
+        public void testarConsultaInvalidaPorEspecialidade(){
+            ConsultorioMedico cm = new ConsultorioMedico();
+            Consulta consulta = new Consulta("15-11-2023", new Medico("Dr. José Roberto", "Pediatra", 1), new Paciente("Lara Prado", 10, 1));
+            cm.agendarConsulta(consulta);
+    
+            List<Consulta> res = cm.consultarConsultasPorMedicoEspecialidade("Ortopedista");
+            assertEquals(res.size(), 0);
+            assertFalse(res.contains(consulta));
+        }
+    
+    }
+
+</details>
+
+    
