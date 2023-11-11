@@ -118,7 +118,7 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 ## ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
 ![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4c4e3d02-31f8-445f-9e13-df794c63fdbb)
 
-## Diagrama de Clases UML + JAVA
+## Diagrama de Clases UML + JAVA - Notas de Aula
 
 Integer = Classe
 int = tipo primitivo
