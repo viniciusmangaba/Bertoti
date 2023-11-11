@@ -377,6 +377,7 @@ CLASSE CONSULTA
 ## ATIVIDADE 7 - Testes automatizados com técnica de teste
 TESTES
 <details> 
+  
     package JUnity;
     
     import org.junit.jupiter.api.Test;
