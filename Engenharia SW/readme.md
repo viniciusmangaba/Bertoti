@@ -118,7 +118,7 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 ## ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
 ![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4c4e3d02-31f8-445f-9e13-df794c63fdbb)
 
-## Diagrama de Clases UML + JAVA - Notas de Aula
+## Diagrama de Clases UML + JAVA (NOTAS DE AULA)
 
 Integer = Classe
 int = tipo primitivo
@@ -153,7 +153,7 @@ List = Classe / Aluno = Objeto
 
 #### equals = Utiliza-se esse método pois o nome é uma String, e consequentemente é uma Classe.
   
-## ATIVIDADE 5 - Inicie seu diagrama de classes UML fazendo-o JUNTO com o JAVA.
+## Inicie seu diagrama de classes UML fazendo-o JUNTO com o JAVA (NOTAS DE AULA)
 
 - Exemplo mostrado em sala de aula - Biblioteca
 
@@ -193,7 +193,7 @@ List = Classe / Aluno = Objeto
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (2)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/ab09d47e-9ab1-409f-9565-46d07bd733aa)
 
-### ATIVIDADE 6 - Implementação Diagrama de Classes UML em Código JAVA
+## ATIVIDADE 6 - Implementação Diagrama de Classes UML em Código JAVA
 CLASSE CONSULTORIOMEDICO
 <details>
   
@@ -374,7 +374,7 @@ CLASSE CONSULTA
 
 </details>
 
-### ATIVIDADE 7 - Testes automatizados com técnica de teste
+## ATIVIDADE 7 - Testes automatizados com técnica de teste
 TESTES
 <details> 
     package JUnity;
