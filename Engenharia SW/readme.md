@@ -2,22 +2,20 @@
 ### FATEC SÃO JOSÉ DOS CAMPOS - JESSEN VIDAL 
 Repositório criado e destinado para as atividades realizadas em sala de aula, sob orientação do professor Giuliano Araujo Bertoti, na disciplina de Engenharia de Software em Banco de Dados - 2º Semestre/2023.
 
-## AULA 11/08/23
-### ATIVIDADE 1 - Comentários do livro "Software Engineering at Google"
+## ATIVIDADE 1 - Comentários do livro "Software Engineering at Google"
 ### TEXTO 1:
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
 #### COMENTÁRIOS:
 Existem três tipos de diferenças criticas na programação: Tempo, escala e Trade-offs.  No contexto de projetos de engenharia de software, é necessário considerar mais a passagem do tempo e a necessidade futura de mudanças. Em organizações de engenharia de software, a preocupação deve ser maior em relação à escala e eficiência, tanto para o software produzido quanto para a própria organização.
 
-## AULA 14/08/23
-### TEXTO 2:
+## TEXTO 2:
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
 #### COMENTÁRIOS:
 No texto acima é comentado que programação é uma parte significante da Engenharia de Software, porém é evidenciado que somente a programção não é Engenharia de Software, assim como cubos não são quadrados e distâncias não é velocidade em si. 
 
-### ATIVIDADE 2 - TRADE-OFFS
+## ATIVIDADE 2 - TRADE-OFFS
 #### 3 EXEMPLOS DE TRADE-OFFS:
   1 - Desempenho x Custo: No desenvolvimento de softwares quando queremos uma funcionalidade ou aplicação com maior desempenho automaticamente implicará num custo maior para a confecção desse software.
   2 - Complexidade do Software x Simplicidade do código: Quanto mais complexo do software maior será o detalhamento do software, que implicará no número de linhas digitadas, bem como no "tamanho" do arquivo.
@@ -26,9 +24,8 @@ No texto acima é comentado que programação é uma parte significante da Engen
 #### REQUISITOS NÃO FUNCIONAIS:
 Um exemplo de comparação de requisitos não funcionais é a usabilidade do google como site de buscas rápidas quando comparadas a outros sites como bing, yahoo, entre outros, sendo a google uma aplicação direta, que não possue propagandas desnecessárias e de baixissimo tempo de resposta, além de possuir um enorme banco de dados de informações.
 
-## AULA 18/08/23
-### ATIVIDADE 3 - Requisitos não funcionais de usabilidade - Avaliação de 10 Heurísticas
-#### 1 ACERTO E 1 ERRO DE CADA HEURÍSTICA: "10 Usability Heuristics for User Interface Design".
+## ATIVIDADE 3 - Requisitos não funcionais de usabilidade - Avaliação de 10 Heurísticas
+### 1 ACERTO E 1 ERRO DE CADA HEURÍSTICA: "10 Usability Heuristics for User Interface Design".
 
 1: Visibility of system status
   - Acerto: Familiaridade do usuário com o sistema, através das interações previsiveis do sistema, tornando-o mais simples na sua utilização.
@@ -118,12 +115,10 @@ Um exemplo de comparação de requisitos não funcionais é a usabilidade do goo
 
     ![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/95bf9ab4-2eed-4eb3-807f-de7d6f006a44)
 
-## AULA 21/08/23
-### ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
+## ATIVIDADE 4 - Diagrama de Caso de Uso (UML) de um sistema simples (Requisitos funcionais).
 ![Sistema Comparador de Notebooks_Diagrama Caso de Usos](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4c4e3d02-31f8-445f-9e13-df794c63fdbb)
 
-## AULA 25/08/23
-### Diagrama de Clases UML + JAVA
+## Diagrama de Clases UML + JAVA
 
 Integer = Classe
 int = tipo primitivo
@@ -158,8 +153,7 @@ List = Classe / Aluno = Objeto
 
 #### equals = Utiliza-se esse método pois o nome é uma String, e consequentemente é uma Classe.
   
-## AULA 28/08/23
-### ATIVIDADE 5 - Inicie seu diagrama de classes UML fazendo-o JUNTO com o JAVA.
+## ATIVIDADE 5 - Inicie seu diagrama de classes UML fazendo-o JUNTO com o JAVA.
 
 - Exemplo mostrado em sala de aula - Biblioteca
 
@@ -186,8 +180,7 @@ List = Classe / Aluno = Objeto
         }
     }
 
-## AULA 01/09/23
-### ATIVIDADE 6 - Atividade prosposta pelo professor - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
+## ATIVIDADE 6 - Atividade prosposta pelo professor - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
 - 1ª VERSÃO:
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4f9b8306-7ac4-41a9-b545-ab05b21e16d2)
