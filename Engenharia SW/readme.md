@@ -180,7 +180,7 @@ List = Classe / Aluno = Objeto
         }
     }
 
-## ATIVIDADE 6 - Atividade prosposta pelo professor - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
+## ATIVIDADE 5 - Diagrama de Classes UML - Caso escolhido: Consultório Médico.
 - 1ª VERSÃO:
 
 ![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio](https://github.com/viniciusmangaba/Bertoti/assets/127343200/4f9b8306-7ac4-41a9-b545-ab05b21e16d2)
@@ -374,7 +374,7 @@ CLASSE CONSULTA
 
 </details>
 
-
+### ATIVIDADE 7 - Testes automatizados com técnica de teste
 TESTES
 <details> 
     package JUnity;
