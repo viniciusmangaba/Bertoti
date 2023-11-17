@@ -17,9 +17,22 @@ No texto acima é comentado que programação é uma parte significante da Engen
 
 ## ATIVIDADE 2 - TRADE-OFFS
 #### 3 EXEMPLOS DE TRADE-OFFS:
-  1 - Desempenho x Custo: No desenvolvimento de softwares quando queremos uma funcionalidade ou aplicação com maior desempenho automaticamente implicará num custo maior para a confecção desse software.
-  2 - Complexidade do Software x Simplicidade do código: Quanto mais complexo do software maior será o detalhamento do software, que implicará no número de linhas digitadas, bem como no "tamanho" do arquivo.
-  3 - Java x Python : Software mais completo e com maior segurança e portabilidade quando comparado ao Python, que por sua vez é mais leve, e mais fácil de implementar quando não se há familiariade. 
+#### 1 - Desempenho x Custo: Servidores de Alta Performance
+
+Desempenho: Esses servidores são poderosos, com capacidade de processamento e armazenamento significativamente altos. Eles podem lidar com cargas de trabalho intensivas e executar aplicativos complexos de maneira eficiente.
+
+Custo: No entanto, esses servidores de alto desempenho geralmente vêm com um custo mais elevado, tanto em termos de aquisição quanto de operação. Eles consomem mais energia e podem exigir investimentos significativos.
+
+#### 2 - Complexidade do Software x Simplicidade do código: 
+Quanto mais complexo do software maior será o detalhamento do software, que implicará no número de linhas digitadas, bem como no "tamanho" do arquivo.
+  
+Software Complexo: Um exemplo de software com código complexo é o sistema operacional "Linux". O Linux é um sistema operacional de código aberto que é conhecido por sua eficiência, desempenho e escalabilidade. Sua complexidade reside na gestão de recursos, suporte a uma ampla variedade de dispositivos, e na implementação de diversos recursos avançados.
+
+Software com simplicidade no código: Um exemplo de software com código simplificado é o "SQLite". O SQLite é um sistema de gerenciamento de banco de dados relacional leve, rápido e de código aberto. Ele é projetado para ser compacto e fácil de incorporar em aplicativos, sem a necessidade de uma instância de servidor separada.
+
+#### 3 - Software mais seguro e completo x Software com maior portabilidade
+
+Java x Python : Software mais completo e com maior segurança e portabilidade quando comparado ao Python, que por sua vez é mais leve, e mais fácil de implementar quando não se há familiariade. 
 
 #### REQUISITOS NÃO FUNCIONAIS:
 Um exemplo de comparação de requisitos não funcionais é a usabilidade do google como site de buscas rápidas quando comparadas a outros sites como bing, yahoo, entre outros, sendo a google uma aplicação direta, que não possue propagandas desnecessárias e de baixissimo tempo de resposta, além de possuir um enorme banco de dados de informações.
