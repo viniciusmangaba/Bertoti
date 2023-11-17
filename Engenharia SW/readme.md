@@ -204,7 +204,7 @@ List = Classe / Aluno = Objeto
 
 - 3ª VERSÃO:
 
-![Diagrama de Classes UML_Consultório Médico_2BD_2023 drawio (2)](https://github.com/viniciusmangaba/Bertoti/assets/127343200/ab09d47e-9ab1-409f-9565-46d07bd733aa)
+![Diagrama de Classes UML_Consultório Médico_2BD_2023](https://github.com/viniciusmangaba/Bertoti/assets/127343200/bbd99a0d-aedd-45eb-bf67-c40fa0c70ed1)
 
 ## ATIVIDADE 6 - Implementação Diagrama de Classes UML em Código JAVA
 CLASSE CONSULTORIOMEDICO
