@@ -469,4 +469,7 @@ TESTES
 
 </details>
 
+## Técnica Utilizada: Classe de Equivalência
+![image](https://github.com/viniciusmangaba/Bertoti/assets/127343200/e534d6da-750e-463a-8351-3354c564c6ae)
+
     
